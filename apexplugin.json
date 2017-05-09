@@ -1,0 +1,38 @@
+{
+    "name": "Circliful Gauge",
+    "version": "1.0",
+    "private": "N",
+    "description": "A Region type plugin for displaying percentage values in responsive gauge charts",
+    "keywords": ["oracle", "apex", "plugin", "AJAX", "PPR", "region", "chart", "gauge", "percentage", "responsive", "font-awesome"],
+    "homepage": "https://github.com/planetapex/apex-plugin-circlifulGauge",
+    "bugs": {
+        "url": "https://github.com/planetapex/apex-plugin-circlifulGauge/issues",
+        "email": "yasirali.wizerp@gmail.com"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "M.Yasir Ali Shah",
+        "email": "yasirali.wizerp@gmail.com",
+        "url": "http://apexfusion.blogspot.com/2017/05/oracle-apex-plugin-circliful-gauge.html",
+        "twitter": "m_yasir_ali",
+        "linkedin": "https://pk.linkedin.com/in/m-yasir-ali-shah-13b5016a",
+        "donationUrl": "https://www.paypal.me/MYasirAliShah/4"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/planetapex/apex-plugin-circlifulGauge.git"
+    },
+    "private": false,
+    "oracle": {
+        "versions": ["11.2.0.1", "12.1.0.1"],
+        "apex": {
+            "versions": ["5.0 .0 ", "5.1 .0 "],
+            "plugin": {
+                "internalName": "COM.PLANETAPEX.CIRCLIFUL_GAUGE",
+                "type": "region",
+                "demo": "https://apex.oracle.com/pls/apex/f?p=83009:40",
+                "previewImage": "https://raw.githubusercontent.com/planetapex/apex-plugin-circlifulGauge/master/assets/circlifulGauge.png"
+            }
+        }
+    }
+}
